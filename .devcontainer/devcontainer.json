@@ -1,0 +1,5 @@
+{
+  "name": "DuckDB + Rye",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "rye sync" // Installing Python dependencies need project files
+}

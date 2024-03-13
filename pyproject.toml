@@ -1,0 +1,22 @@
+[project]
+authors         = [{name = "Murilo Cunha", email = "murilo@dataroots.io"}]
+dependencies    = []
+description     = "Add your description here"
+name            = "batch-deployment-motherduck-modal"
+readme          = "README.md"
+requires-python = ">= 3.12"
+version         = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires      = ["hatchling"]
+
+[tool.rye]
+dev-dependencies = []
+managed          = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/batch_deployment_motherduck_modal"]
